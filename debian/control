@@ -1,0 +1,52 @@
+Source: python-mox3
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Julien Danjou <acid@debian.org>,
+           Thomas Goirand <zigo@debian.org>,
+           Mehdi Abaakouk <sileht@sileht.net>
+Build-Depends: debhelper (>= 9),
+               openstack-pkg-tools,
+               python-all (>= 2.6.6-3~),
+               python-setuptools,
+               python3-all,
+               python3-setuptools
+Build-Depends-Indep: python-fixtures,
+                     python-pbr (>= 0.5.21),
+                     python-subunit,
+                     python-testtools,
+                     python3-fixtures,
+                     python3-pbr (>= 0.5.21),
+                     python3-subunit,
+                     python3-testtools,
+                     testrepository (>= 0.0.17)
+Standards-Version: 3.9.4
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-mox3.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-mox3.git
+Homepage: https://pypi.python.org/pypi/mox3
+
+Package: python-mox3
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ${misc:Depends}, ${python:Depends}
+Recommends: ${python:Recommends}
+Description: Mock object framework - Python 2.x
+ Mox3 is an unofficial port of the Google mox framework (see
+ http://code.google.com/p/pymox/) to Python 3. It was meant to be as compatible
+ with mox as possible, but small enhancements have been made. The library was
+ tested on Python version 3.2, 2.7 and 2.6.
+ .
+ This package provides the Python 2.x module.
+
+Package: python3-mox3
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ${misc:Depends}, ${python3:Depends}
+Recommends: ${python3:Recommends}
+Description: Mock object framework - Python 3.x
+ Mox3 is an unofficial port of the Google mox framework (see
+ http://code.google.com/p/pymox/) to Python 3. It was meant to be as compatible
+ with mox as possible, but small enhancements have been made. The library was
+ tested on Python version 3.2, 2.7 and 2.6.
+ .
+ This package provides the Python 3.x module.

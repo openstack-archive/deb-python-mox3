@@ -1,0 +1,5 @@
+python-mox3 (0.7.0-1) unstable; urgency=low
+
+  * Initial release. (Closes: #722049)
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 06 Sep 2013 20:46:39 +0800
