@@ -1,0 +1,407 @@
+commit 444fa40f4edb529efbffa2da8dbd97e9b8564b5c
+Author: Monty Taylor <mordred@inaugust.com>
+Date:   Thu Aug 15 14:32:26 2013 -0300
+
+    Updated requirements
+
+commit 2414ef034a949a4b5d09154df7a7926e67f08840
+Author: Monty Taylor <mordred@inaugust.com>
+Date:   Sun May 26 01:54:53 2013 +0300
+
+    Add a fixture for consuming mox3 easily.
+
+commit c72ca6d2fdfaadfaad20497d8fd500bc316f66ef
+Author: Monty Taylor <mordred@inaugust.com>
+Date:   Tue May 21 19:29:25 2013 -0400
+
+    Add CONTRIBUTING file.
+
+commit c6efa1f0caa21eed7549e5af9c74457149e4284e
+Author: Monty Taylor <mordred@inaugust.com>
+Date:   Tue May 21 19:28:18 2013 -0400
+
+    Cleaed up AUTHORS/ChangeLog file.
+
+commit 4b18f8a0a61d1fd0761839be5771233548317fba
+Author: Monty Taylor <mordred@inaugust.com>
+Date:   Tue May 21 19:23:45 2013 -0400
+
+    Migrate test bases to testtools.
+
+commit 4b4421e766fec59ad7ebd24fe6f45bec8fe27883
+Author: Monty Taylor <mordred@inaugust.com>
+Date:   Tue May 21 18:37:02 2013 -0400
+
+    Fix all of the flake8/hacking warnings.
+
+commit 1a99638ba2405211c6539c71060e89f8e98b53bb
+Author: Monty Taylor <mordred@inaugust.com>
+Date:   Tue May 21 17:12:00 2013 -0400
+
+    Fix the leading indentation issue.
+
+commit 24bd40737ac97ad32226fbd29b50fda05de00364
+Author: Monty Taylor <mordred@inaugust.com>
+Date:   Tue May 21 16:54:51 2013 -0400
+
+    Updated to use OpenStack standards.
+
+commit de1221109c28331684ed4d56913ee6d7541b0cc1
+Author: Monty Taylor <mordred@inaugust.com>
+Date:   Tue May 21 16:09:48 2013 -0400
+
+    Add openstack stuff.
+
+commit 1e965c9d026ff7299a33a0f18f01163484dc514e
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Mon Apr 30 22:36:52 2012 +0200
+
+    Changed project description.
+
+commit e5bec16ee550e4c1d7da00e9d08c0f37ef1e7d33
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 29 01:06:12 2012 +0200
+
+    Author is not required - maintainer is enough
+
+commit 1e19d223700b74d935e7d708e59c403067827386
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 29 01:03:09 2012 +0200
+
+    Added tests to sdist
+
+commit ea72ff8485a32e05c48f2b271f2782275fc28931
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 29 00:56:00 2012 +0200
+
+    Applied some changes according to http://getpython3.com/diveintopython3/packaging.html
+
+commit c0557d6f1a423dd6a68336a89c3f2d748d7926d2
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Thu Apr 26 23:10:02 2012 +0200
+
+    Changed directory test to tests. Fixed travis config.
+
+commit de3be03f55061664678cbc3b56248fda18db7f13
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Thu Apr 26 23:05:48 2012 +0200
+
+    Adjusted the structure of the mox3.
+
+commit 3075ab868bbeb977c9495ab0a86b4c3e72166d62
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Thu Apr 26 22:10:26 2012 +0200
+
+    Minor fixes + changes in metadata
+
+commit 0bc03f75efb5d6b4cbe5684326dbe219b1dcf873
+Author: Przemysław Gajda <quermit@gmail.com>
+Date:   Wed Apr 25 01:56:37 2012 +0300
+
+    Update README
+
+commit 9e444c4ac77d3cd289d40aa1bcfbff83a0282b16
+Merge: 17bee3d 9a6e25a
+Author: Dawid Fatyga <dawid.fatyga@gmail.com>
+Date:   Tue Apr 24 15:50:10 2012 -0700
+
+    Merge pull request #4 from quermit/fix_pep8_issues
+    
+    Fixed pep8 issues
+
+commit 9a6e25a979e7629a7b2813b60e2e240c63bd18bf
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Wed Apr 25 00:30:19 2012 +0200
+
+    Fixed pep8 issues.
+
+commit 17bee3dab43dd9c4feb1d0202d4a99699de8b00a
+Merge: ec173d5 64a3cb2
+Author: Przemysław Gajda <quermit@gmail.com>
+Date:   Tue Apr 24 14:49:42 2012 -0700
+
+    Merge pull request #3 from quermit/fix-callables-inconsistency
+    
+    Full Python 3 compatibility
+
+commit 64a3cb2446b664817329bac127da9fe91c7e54ee
+Author: Dawid Fatyga <dawid.fatyga@gmail.com>
+Date:   Tue Apr 24 23:41:02 2012 +0200
+
+    Added test for changed semantics in Python 3.
+
+commit 79af932dab26a3c8ef31d840f94582b9b922855a
+Author: Dawid Fatyga <dawid.fatyga@gmail.com>
+Date:   Tue Apr 24 22:53:42 2012 +0200
+
+    Added modification info.
+
+commit 09fd9fa35368f98c33199eccb41e6d9bfe4c84c4
+Author: Dawid Fatyga <dawid.fatyga@gmail.com>
+Date:   Tue Apr 24 22:53:00 2012 +0200
+
+    Fixed isinstance check on instances of MockObject.
+
+commit 4bf088ce24e8eb0c8c3a34595eda71267b03d797
+Author: Dawid Fatyga <dawid.fatyga@gmail.com>
+Date:   Tue Apr 24 22:22:38 2012 +0200
+
+    Fixed a bug when dir() called on MockObject was not returning attributes of a mocked class (Python3).
+
+commit 89f703dc855dd81f0b25ded8136695e10e19fae6
+Author: Dawid Fatyga <dawid.fatyga@gmail.com>
+Date:   Tue Apr 24 21:40:30 2012 +0200
+
+    Pep8's E111 error is now ignored.
+
+commit 23d643a360c714e5d7a6999830d5793b56300441
+Author: Dawid Fatyga <dawid.fatyga@gmail.com>
+Date:   Tue Apr 24 21:34:11 2012 +0200
+
+    Removed exclamation mark from travis.yml
+
+commit 3415baa2c754a7103631b388825a51ef849df276
+Author: Dawid Fatyga <dawid.fatyga@gmail.com>
+Date:   Tue Apr 24 21:32:45 2012 +0200
+
+    Added pep8 to .travis.yml
+
+commit 3e5ffa180380432354920496b2ccf5a41059f9c4
+Author: Dawid Fatyga <dawid.fatyga@gmail.com>
+Date:   Tue Apr 24 21:26:31 2012 +0200
+
+    Fixed deprecation warnings in mox_test.py
+
+commit 958cb59b115f90cf5232e5960543d90874c6ff1c
+Author: Dawid Fatyga <dawid.fatyga@gmail.com>
+Date:   Tue Apr 24 21:18:28 2012 +0200
+
+    Introduced class to which mocks can be bound in order to preserve binding information (Python3 and missing unbound methods issue).
+
+commit ec173d58f0e4e02e981a63a125666b8bda27a1c9
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Mon Apr 23 23:28:34 2012 +0200
+
+    Added __hash__ for MockMethod - no default hash in py3k
+
+commit 7960a292522ab78aad8cdccb01b46fc8e611685a
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Mon Apr 23 23:22:26 2012 +0200
+
+    bugfix for unhashable/uncomparable dicts
+
+commit 557578961290cb9adf98866565a0f9d540a8d797
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Mon Apr 23 22:54:44 2012 +0200
+
+    Restored callable function since it's present in python 3.2
+
+commit 4adacddee307c4f90d8cb49ca69f83176967a4e7
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Mon Apr 23 15:59:47 2012 +0200
+
+    Converted all classes to the new style (inheriting from object) - this is the only option in py3k.
+
+commit 79375ce4d544a241b6db64e4a266a66fc35e86cb
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Mon Apr 23 10:21:50 2012 +0200
+
+    Py3k always sets re.U flag, so the resulting regex.flags are equals to flags | re.U.
+
+commit 48a9b764032e1fce54e9d871a1c4f2d9ecf7d232
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Mon Apr 23 00:45:20 2012 +0200
+
+    Fixed all the simple compatiblity issues
+
+commit 7de1beb8c8d47f43d6645430e2b3dca2c3aa19a8
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Mon Apr 23 00:13:21 2012 +0200
+
+    Fixed compatiblity issues in stubout
+
+commit b13fe45f54ce81cf79286e7eee8e3dfbe96023b3
+Merge: b42984e 8682113
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Mon Apr 23 00:06:45 2012 +0200
+
+    Merge branch 'master' of github.com:quermit/pymox
+
+commit b42984e71331161c8623b9a261776df150a30d82
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Mon Apr 23 00:06:00 2012 +0200
+
+    Fixed some of the compatiblity issues
+
+commit 8682113efe257105bcec52f6489f571d19ab192d
+Author: Przemysław Gajda <quermit@gmail.com>
+Date:   Mon Apr 23 00:48:51 2012 +0300
+
+    info about modification
+
+commit 55a0e94c90431b01a84e8902ffbacb56eaa1e485
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 22 23:44:40 2012 +0200
+
+    Added modification info
+
+commit f25227371e47cdf2d0195fb5c2b2e09d48cb2522
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 22 23:29:26 2012 +0200
+
+    Enabled Travis CI
+
+commit 963eacdab177176a4c0208297e3ed8c2aadee304
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 22 23:27:47 2012 +0200
+
+    Enabled Travis CI
+
+commit 618d7071bbcc6b865d6ef722a74adf6896d897e3
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 22 23:01:29 2012 +0200
+
+    Another bugfix... Tests are still passing.
+
+commit b823f3e8c4a20d12a6b372672bf558ff8956f452
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 22 22:59:59 2012 +0200
+
+    Bugfix. At least I hope so...
+
+commit 2ca6a9b2c6fc5613342a53c31960ae9be3372c1b
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 22 22:50:04 2012 +0200
+
+    fixed indentation
+
+commit 9befc3dd9a93d1159c7ef8a6d7db0f4f47ae412e
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 22 22:47:58 2012 +0200
+
+    bugfix
+
+commit c3b59f35cbe556bc963c058f60353dfd1ad604ef
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 22 22:44:36 2012 +0200
+
+    Added .gitignore
+
+commit 3becdfd4a0be62be9d09a744fe74c7636f4f5754
+Author: Przemyslaw Gajda <quermit@gmail.com>
+Date:   Sun Apr 22 17:45:03 2012 +0200
+
+    Updated to version 0.5.3
+
+commit e6127210cc59271fd2ed02c6a6ceb11b7efd63af
+Author: smiddlek <smiddlek@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Fri Sep 11 19:57:51 2009 +0000
+
+    Numerous fixes from Google:
+    
+     * Added warning the Mox is not thread-safe - Steve Middlekauff
+     * Fix bug in MultipleTimes group where if a Func is used it is called
+       unnecessarily, due to re-comparing to see if the group has been
+       satisfied - Steve Middlekauff
+     * Use difflib for exceptions - Matt Brown
+     * Add support for mocking iterators - Adam Nadolski
+     * Make __getitem__, __setitem__, and __iter__ work with subclasses of
+       new style clases - Antoine Picard
+
+commit 4b6782aa8c355c767368f0ab3f981e7b1bdd21a1
+Author: smiddlek <smiddlek@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Tue May 5 23:22:21 2009 +0000
+
+    Mox release 0.5.1, which includes some bug fixes and tests for stubout.
+
+commit 4378dee1ef55634c9eada7528d4c0f39359ad068
+Author: smiddlek <smiddlek@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Tue May 5 22:54:33 2009 +0000
+
+    Fix for Issue 3, submitted by a...@therobots.org.
+
+commit aeaefb32816d68478b63b3e8f84520e4cd7c3a2a
+Author: smiddlek <smiddlek@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Fri Mar 20 17:03:34 2009 +0000
+
+    Fix for Issue 5, submitted by agoratim.
+
+commit 4ea08c31b9acea16a21d751c4ca419346323af11
+Author: smiddlek <smiddlek@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Wed Nov 12 19:01:43 2008 +0000
+
+    Patch from Matt Brown (mdbrow@gmail.com) to inspect the arguments of mocked methods.  Alright! :)
+
+commit df7286a016ea565496bd8f2a7e56fb816588404e
+Author: smiddlek <smiddlek@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Fri Oct 24 00:51:29 2008 +0000
+
+    Added support for __contains__, thanks to Adam Lowry.
+
+commit bf5da76c74f18061f9ed9d7db25949c733c3b0d5
+Author: smiddlek <smiddlek@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Tue Aug 19 21:29:14 2008 +0000
+
+    Added import for inspect, and tests for stubout.  Patch by Manuel Holtgrewe.
+    
+    A    stubout_testee.py
+    A    stubout_test.py
+    M    stubout.py
+
+commit f62e52639fdc3dcb366d5f6c95ca5bce5eb30a3e
+Author: smiddlek <smiddlek@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Tue Jul 1 21:24:54 2008 +0000
+
+    Remove duplicate NotTest.  Bad patch.
+
+commit 807e7567d447997b0887164f36571b104af03572
+Author: smiddlek <smiddlek@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Tue Jul 1 20:47:46 2008 +0000
+
+    Add a Not comparator to compose with other comparators.
+    
+    Patch by: Benoit Sigoure <benoits@google.com>
+
+commit 5a84531d0e4f81fa4af078140a97b82aeca7c4c5
+Author: dglasser <dglasser@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Tue Jul 1 01:43:55 2008 +0000
+
+    Fix MoxTestBase to be usable with multiple-inheritance.
+    
+    MoxTestBase was redefining setUp() but it didn't use super() to
+    call setUp recursively on the other parent classes defined in MRO.
+    
+    Patch by: Benoit Sigoure <tsuna@lrde.epita.fr>
+
+commit 6fcef3d03b8868d5cdead9625572e2db666e5236
+Author: dglasser <dglasser@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Wed Jun 18 23:30:15 2008 +0000
+
+    Write a README.
+
+commit 74f34a6d18e94fb9ec5f2819e75b64879228d5a0
+Author: dglasser <dglasser@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Tue Jun 17 05:59:15 2008 +0000
+
+    Start our first release at 0.5.0, not 1.0.0.
+
+commit 0856dbdb6dfed31fb7fd14bd9632628b55ba15bc
+Author: dglasser <dglasser@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Mon Jun 16 21:30:12 2008 +0000
+
+    Include the mox_test_helper.py in the distribution.
+
+commit 5eb62d1ff04dcb6f1b7780258cfda6f0132c2511
+Author: dglasser <dglasser@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Mon Jun 16 21:04:49 2008 +0000
+
+    Fix mailing list address.
+
+commit 64b3b1421e561b9c2fdd7e66f8d853889b109489
+Author: dglasser <dglasser@b1010a0a-674b-0410-b734-77272b80c875>
+Date:   Fri Jun 13 23:00:27 2008 +0000
+
+    Initial import of mox (originally an internal Google project).
+    
+    It's not quite ready for release yet, but it's been appropriately
+    scrubbed and relicensed.
