@@ -28,7 +28,10 @@ Homepage: https://pypi.python.org/pypi/mox3
 Package: python-mox3
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: python-pbr (>=0.5.21), ${misc:Depends}, ${python:Depends}
+Depends: python-fixtures (>= 0.3.12),
+         python-pbr (>=0.5.21),
+         ${misc:Depends},
+         ${python:Depends}
 Recommends: ${python:Recommends}
 Description: Mock object framework - Python 2.x
  Mox3 is an unofficial port of the Google mox framework (see
@@ -41,7 +44,10 @@ Description: Mock object framework - Python 2.x
 Package: python3-mox3
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: python3-pbr (>=0.5.21), ${misc:Depends}, ${python3:Depends}
+Depends: python3-fixtures (>= 0.3.12),
+         python3-pbr (>=0.5.21),
+         ${misc:Depends},
+         ${python3:Depends}
 Recommends: ${python3:Recommends}
 Description: Mock object framework - Python 3.x
  Mox3 is an unofficial port of the Google mox framework (see
