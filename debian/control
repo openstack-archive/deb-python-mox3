@@ -19,6 +19,7 @@ Build-Depends-Indep: python-fixtures,
                      python3-pbr (>= 0.5.21),
                      python3-subunit,
                      python3-testtools,
+                     subunit,
                      testrepository (>= 0.0.17)
 Standards-Version: 3.9.4
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-mox3.git
