@@ -1,3 +1,11 @@
+python-mox3 (0.10.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Switching to git based packaging.
+  * Now also running unit tests for Py3.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 05 Oct 2015 10:02:44 +0200
+
 python-mox3 (0.7.0-2) unstable; urgency=low
 
   * Calling testr and subunit correctly.
