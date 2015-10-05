@@ -3,6 +3,7 @@ python-mox3 (0.10.0-1) experimental; urgency=medium
   * New upstream release.
   * Switching to git based packaging.
   * Now also running unit tests for Py3.
+  * Watch file now using github tag rather than broken PyPi.
 
  -- Thomas Goirand <zigo@debian.org>  Mon, 05 Oct 2015 10:02:44 +0200
 
