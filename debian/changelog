@@ -2,6 +2,7 @@ python-mox3 (0.13.0-1) experimental; urgency=medium
 
   * New upstream release.
   * Fixed pbr version in (build-)depends, needed for this release.
+  * Fixed debian/copyright ordering.
 
  -- Thomas Goirand <zigo@debian.org>  Tue, 19 Jan 2016 10:42:25 +0000
 
