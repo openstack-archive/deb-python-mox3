@@ -7,10 +7,10 @@ Build-Depends: debhelper (>= 9),
                dh-python,
                openstack-pkg-tools,
                python-all,
-               python-pbr (>= 1.6),
+               python-pbr (>= 1.8),
                python-setuptools,
                python3-all,
-               python3-pbr (>= 1.6),
+               python3-pbr (>= 1.8),
                python3-setuptools,
 Build-Depends-Indep: python-fixtures (>= 1.3.1),
                      python-six (>= 1.9.0),
@@ -29,7 +29,7 @@ Homepage: https://pypi.python.org/pypi/mox3
 Package: python-mox3
 Architecture: all
 Depends: python-fixtures (>= 1.3.1),
-         python-pbr (>= 1.6),
+         python-pbr (>= 1.8),
          ${misc:Depends},
          ${python:Depends}
 Recommends: ${python:Recommends}
@@ -43,7 +43,7 @@ Description: Mock object framework - Python 2.7
 Package: python3-mox3
 Architecture: all
 Depends: python3-fixtures (>= 1.3.1),
-         python3-pbr (>= 1.6),
+         python3-pbr (>= 1.8),
          ${misc:Depends},
          ${python3:Depends}
 Recommends: ${python3:Recommends}
