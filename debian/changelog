@@ -1,8 +1,13 @@
-python-mox3 (0.13.0-2) UNRELEASED; urgency=medium
+python-mox3 (0.14.0-1) unstable; urgency=medium
 
+  [ Ondřej Nový ]
   * Fixed VCS URLs (https).
 
- -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:41:47 +0100
+  [ Thomas Goirand ]
+  * New upstream release.
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 04 Apr 2016 17:27:54 +0000
 
 python-mox3 (0.13.0-1) experimental; urgency=medium
 
