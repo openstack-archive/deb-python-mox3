@@ -1,0 +1,9 @@
+Code-Review+2: Mehdi Abaakouk (sileht) <sileht@redhat.com>
+Code-Review+2: ChangBo Guo(gcb) <glongwave@gmail.com>
+Workflow+1: ChangBo Guo(gcb) <glongwave@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 06 Jan 2017 05:01:02 +0000
+Reviewed-on: https://review.openstack.org/404155
+Project: openstack/deb-python-mox3
+Branch: refs/heads/master
