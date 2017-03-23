@@ -1,0 +1,9 @@
+Code-Review+2: ChangBo Guo(gcb) <glongwave@gmail.com>
+Code-Review+1: Dirk Mueller <dirk@dmllr.de>
+Workflow+1: ChangBo Guo(gcb) <glongwave@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 17 Feb 2017 03:43:33 +0000
+Reviewed-on: https://review.openstack.org/413302
+Project: openstack/deb-python-mox3
+Branch: refs/heads/master
